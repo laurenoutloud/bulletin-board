@@ -31,13 +31,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     list-style-type: none;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     background-color: #ffc;
-    margin: 5px;
+    margin: 10px;
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
     overflow: auto;
+    padding: 5px;
+}
+
+.card:hover .delete-button{
+    visibility: visible;
 }
 
 .pin {
@@ -60,4 +66,14 @@ body {
 .add-card-button {
     font-family: inherit;
     font-size: 24px;
+}
+
+.add-card-button:hover {
+    cursor: pointer;
+}
+
+.delete-button {
+    font-family: inherit;
+    visibility: hidden;
+    margin-bottom: 5px;
 }
