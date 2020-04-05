@@ -27,7 +27,7 @@ body {
     padding: 5px;
 }
 
-.bulletin-board li {
+.note {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,7 @@ body {
     padding: 5px;
 }
 
-.card:hover .delete-button{
+.note:hover .delete-button{
     visibility: visible;
 }
 
@@ -63,12 +63,12 @@ body {
     
 }
 
-.add-card-button {
+.add-note-button {
     font-family: inherit;
     font-size: 24px;
 }
 
-.add-card-button:hover {
+.add-note-button:hover {
     cursor: pointer;
 }
 
